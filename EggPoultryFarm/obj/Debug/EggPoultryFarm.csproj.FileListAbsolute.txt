@@ -1,0 +1,66 @@
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\csc.exe
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\vbc.exe
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\VBCSCompiler.exe
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\EggPoultryFarm.dll.config
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\EggPoultryFarm.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\EggPoultryFarm.pdb
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Helpers.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Mvc.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Razor.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Webpages.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Webpages.Razor.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Razor.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Webpages.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Webpages.Razor.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Helpers.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\bin\System.Web.Mvc.xml
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\obj\Debug\EggPoultryFarm.csprojResolveAssemblyReference.cache
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\obj\Debug\EggPoultryFarm.dll
+C:\Users\vijay\OneDrive\Documents\Visual Studio 2015\Projects\EggPoultryFarm\EggPoultryFarm\obj\Debug\EggPoultryFarm.pdb
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\csc.exe
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\System.Collections.Immutable.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\System.Reflection.Metadata.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\vbc.exe
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\VBCSCompiler.exe
+D:\My_TFS\Egg\EggPoultryFarm\bin\roslyn\VBCSCompiler.exe.config
+D:\My_TFS\Egg\EggPoultryFarm\bin\EggPoultryFarm.dll.config
+D:\My_TFS\Egg\EggPoultryFarm\bin\EggPoultryFarm.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\EggPoultryFarm.pdb
+D:\My_TFS\Egg\EggPoultryFarm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\Microsoft.Web.Infrastructure.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Helpers.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Mvc.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Razor.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Webpages.Deployment.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Webpages.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Webpages.Razor.dll
+D:\My_TFS\Egg\EggPoultryFarm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Razor.xml
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Webpages.xml
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Webpages.Deployment.xml
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Webpages.Razor.xml
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Helpers.xml
+D:\My_TFS\Egg\EggPoultryFarm\bin\System.Web.Mvc.xml
+D:\My_TFS\Egg\EggPoultryFarm\obj\Debug\EggPoultryFarm.csprojResolveAssemblyReference.cache
+D:\My_TFS\Egg\EggPoultryFarm\obj\Debug\EggPoultryFarm.dll
+D:\My_TFS\Egg\EggPoultryFarm\obj\Debug\EggPoultryFarm.pdb

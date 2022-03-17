@@ -1,0 +1,151 @@
+﻿@using EggPoultryFarm.Models
+@{
+    Layout = null;
+    int Index = 0;
+    List<poultry> poultrylist = new List<poultry>(ViewBag.vijay); 
+}
+
+<!DOCTYPE html>
+
+oru
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg');
+        background-color: #CCCCCC;
+        box-sizing: border-box;
+        color: #333333;
+        font-family: Calibri, sans-serif;
+        line-height: 0.4;
+        margin: 50px 100px;
+        margin-left: 25%;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Float four columns side by side */
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding in columns */
+    .row {
+        margin: 0 -5px;
+    }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    /* Responsive columns - one column layout (vertical) on small screens */
+    @@media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+</style>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+<div class="grid">
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+   @{ 
+       foreach (var poultry in poultrylist)
+       {
+           Index = Index + 1;
+            <br>
+            <div class="grid">
+
+                <div class="row">
+
+                    <div style="width: 112px;height: 39px;" class="column">
+                        <div class="card cls_View dv_data@(Index)">@poultry.DATE</div>
+                        <input type="text" class="cls_Text@(Index) clsdate@(Index)" style="display:none" value="@poultry.DATE" />
+                    </div>
+                    <div style="width: 80px;height: 39px;" class="column">
+                        <div class="card dv_data@(Index)" >@poultry.EGGCOUNT</div>
+                        <input type="text" class="cls_Text@(Index) clseggcnt@(Index)" style="display:none" value="@poultry.EGGCOUNT" />
+                    </div>
+                    <div style="width: 63px;height: 39px;" class="column">
+                        <div class="card dv_data@(Index)" >@poultry.CHICKENCOUNT</div>
+                        <input type="text" class="cls_Text@(Index) clschkcnt@(Index)" style="display:none" value="@poultry.CHICKENCOUNT" />
+                    </div>
+                    <div style="width: 93px;height: 39px;" class="column">
+                        <div class="card dv_data@(Index)" >@poultry.SET</div>
+                        <input type="text" class="cls_Text@(Index) clsset@(Index)" style="display:none" value="@poultry.SET" />
+                    </div>
+                    <div style="width: 80px;height: 39px;" class="column">
+                        <div class="card dv_data@(Index)" >@poultry.EGGSIZE</div>
+                        <input type="text" class="cls_Text@(Index) clseggsize@(Index)" style="display:none" value="@poultry.EGGSIZE" />
+                    </div>
+                    <div style="width: 93px;height: 39px;" class="column">
+                        <div class="card dv_data@(Index)" >@poultry.FEEDWEIGHT</div>
+                        <input type="text" class="cls_Text@(Index) clsfeed@(Index)" style="display:none" value="@poultry.FEEDWEIGHT" />
+                    </div>
+                    <div style="width: 93px;height: 39px;" class="column edit@(Index)">
+                        <button onclick="hideShoe(this)" data-index="@Index">Edit</button>
+                    </div>
+                    <div style="width: 93px;height: 39px;display:none;" class="column save@(Index)">
+                        <button onclick="saveFile(this)" data-index="@Index">Save</button>
+                    </div>
+                    <div style="width: 93px;height: 39px;display:none;" class="column cancel@(Index)">
+                        <button onclick="cancel(this)" data-index="@Index">Cancel</button>
+                    </div>
+                </div>
+            </div>
+
+
+           
+            };
+    }
+</div>
+    <script>
+        function hideShoe(e) {
+            var index = $(e).data("index");
+            $(".dv_data" + index).hide();
+            $(".cls_Text" + index).show();
+            $(".save" + index + ",.cancel" + index + "").show();
+            $(".edit" + index + "").hide();
+        }
+
+        function saveFile(e)
+        {
+            var index = $(e).data("index");
+            $(".dv_data" + index).show();
+            $(".cls_Text" + index).hide();
+            $(".edit" + index + "").show();
+            $(".save" + index + ",.cancel" + index + "").hide();
+        }
+
+        function cancel(e) {
+            var index = $(e).data("index");
+            $(".dv_data" + index).show();
+            $(".cls_Text" + index).hide();
+            $(".edit" + index + "").show();
+            $(".save" + index + ",.cancel" + index + "").hide();
+
+        }
+    </script>

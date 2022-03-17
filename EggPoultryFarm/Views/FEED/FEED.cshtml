@@ -1,0 +1,406 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<style>
+    @@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+    body {
+        background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg');
+        background-color: #CCCCCC;
+        box-sizing: border-box;
+        color: #333333;
+        font-family: Calibri, sans-serif;
+        line-height: 0.4;
+        margin: 10px 100px;
+        margin-left: 10%;
+    }
+
+        body .btn {
+            background: #333333;
+            border: 0;
+            color: #FFFFFF;
+            padding: 0.6rem 0.3rem;
+            text-decoration: none;
+        }
+
+        body .wrapper {
+            display: grid;
+            grid-gap: 20px;
+        }
+
+            body .wrapper .main-nav ul {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns: repeat(4, 1fr);
+                list-style: none;
+                padding: 0;
+            }
+
+            body .wrapper .main-nav a {
+                background: #DDDDDD;
+                box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+                color: #333333;
+                display: block;
+                font-size: 1.1rem;
+                padding: 0.8rem;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+                body .wrapper .main-nav a:hover {
+                    background: #333333;
+                    color: #FFFFFF;
+                }
+
+            body .wrapper .top-container {
+                display: grid;
+                grid-gap: 04px;
+                grid-template-areas: "showcase showcase top-box-a" "showcase showcase top-box-b";
+            }
+
+
+
+                body .wrapper .top-container .showcase h1 {
+                    color: #FFFFFF;
+                    font-size: 4rem;
+                    margin-bottom: 0;
+                }
+
+                body .wrapper .top-container .showcase p {
+                    color: #FFFFFF;
+                    font-size: 1.3rem;
+                    margin-top: 0;
+                }
+
+                body .wrapper .top-container .top-box {
+                    align-items: center;
+                    background: #DDDDDD;
+                    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+                    display: grid;
+                    justify-items: center;
+                }
+
+                    body .wrapper .top-container .top-box .price {
+                        font-size: 0.5rem;
+                    }
+
+
+
+    .s_bode {
+        width: 800px;
+        height: 40vh;
+        padding: 20px;
+        display: flex;
+        position: relative;
+        z-index: 1000;
+        border-radius: 20px;
+        background-image: url(https://images.unsplash.com/photo-1563299796-b729d0af54a5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHN0YWRpdW18ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+        background-position: 0 -289px;
+        background-size: cover;
+        overflow: hidden;
+        margin-left: 6%;
+    }
+
+
+        .s_bode:after {
+            content: '';
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .8);
+            z-index: -2;
+            border-radius: 20px;
+        }
+
+
+        .s_bode:before {
+            content: '';
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: -47%;
+            background-color: rgba(255, 255, 255, .2);
+            z-index: -1;
+            transform: skewX(-10deg);
+        }
+
+        .s_bode img {
+            height: 100px;
+            width: 100px;
+        }
+
+    .left_section {
+        flex-grow: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mid_section {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .right_section {
+        flex-grow: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s_bode h2 {
+        margin-top: 10px;
+        color: #f39c12;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+
+    .s_bode p {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+    }
+
+
+    @@media screen and (max-width: 850px) {
+        .s_bode {
+            width: 500px;
+            background-position: 0 -209px;
+        }
+
+            .s_bode img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .s_bode h2 {
+                font-size: 18px;
+            }
+    }
+
+
+    @@media screen and (max-width: 640px) {
+        .s_bode {
+            width: 400px;
+            padding: 10px;
+            background-position: 0 -190px;
+        }
+
+            .s_bode img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .s_bode h2 {
+                font-size: 14px;
+            }
+
+            .s_bode h1 {
+                font-size: 18px;
+            }
+
+            .s_bode p {
+                font-size: 10px;
+            }
+    }
+
+    @@media screen and (max-width: 450px) {
+        .s_bode {
+            width: 320px;
+            padding: 10px;
+            background-position: 0 -90px;
+        }
+
+            .s_bode img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .s_bode h2 {
+                font-size: 14px;
+            }
+
+            .s_bode h1 {
+                font-size: 18px;
+            }
+    }
+</style>
+
+<div class="wrapper">
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <ul>
+          
+        </ul>
+
+
+
+
+    </nav>
+    <div>
+
+        <ul>
+            <label style="color:beige" for="SET"><b>FEED QUANTITY:</b></label>
+
+        </ul>
+        </nav>
+
+        <tr>
+            <td valign="middle">
+                <select class="calendarDateInput" id="Month" style="width: 50px;height: 39px;  onchange=" ageat_Object.changeMonth(this)">
+                    <option value="0">Jan</option>
+                    <option value="1">Feb</option>
+                    <option value="2" selected="">Mar</option>
+                    <option value="3">Apr</option>
+                    <option value="4">May</option>
+                    <option value="5">Jun</option>
+                    <option value="6">Jul</option>
+                    <option value="7">Aug</option>
+                    <option value="8">Sep</option>
+                    <option value="9">Oct</option>
+                    <option value="10">Nov</option>
+                    <option value="11">Dec</option>
+                </select>
+            </td>
+            <td valign="middle">
+                <select class="calendarDateInput" id="DATE" style="width: 39px;height: 39px;  onchange=" ageat_Object.changeDay(this)">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option selected="">5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+            </td>
+            <td valign="middle">
+                <input class="calendarDateInput" style="width: 80px;height: 35px; type=" text" id="Year" size="6" maxlength="6" title="Year" value="2022" onkeypress="return YearDigitsOnly(window.event)" onkeyup="ageat_Object.checkYear(this)" onblur="ageat_Object.fixYear(this)">
+            </td>
+        </tr>
+
+
+
+        <label style="color:beige" for="WEIGHTIN"><b>WEIGHT IN:</b></label>
+        <select name="SET" id="SET" style="width: 109px;height: 39px;">
+
+            <option>KG</option>
+            
+        </select>
+
+        <label style="color:beige" for="FEEDQUALITY"><b>FEEDQUALITY:</b></label>
+        <select name="EGGSIZE" id="FEEDQUALITY" style="width: 109px;height: 37px;">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+
+        <label style="color:beige" for="FEEDWEIGHT"><b>FEEDWEIGHT:</b></label>
+        <input type="text" class="form-control col-md-12 clsTxt" id="FEEDWEIGHT" style="width: 109px;height: 39px;  placeholder=" Total">
+
+
+        <label style="color:beige" for="FEEDPRICE:"><b>FEED PRICE: </b></label>
+        <input type="text" class="form-control col-md-12 clsTxt" id="FEEDPRICE" style="width: 109px;height: 39px;  placeholder=" Total">
+        <br /><br /><br /><br />
+        
+       
+
+        <div style="margin-left:29%">
+            <input type="button" style="width: 172px;height: 39px;" class="btn btn-primary" value=" SUMBIT" onclick="getinput()" />
+        </div>
+       
+        <br /><br /><br /><br />
+        <div class="container">
+            <div class="s_bode">
+                
+
+                <div style="color:beige" class="mid_section" id="div_Value">
+
+                </div>
+
+                
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script>
+    function getinput() {
+        //var username = $(".clsTxt").val()
+        //var Password = $("#InputPassword1").val()
+
+        var input = {
+            Month: $("#Month").val(),
+            DATE: $("#DATE").val(),
+            Year: $("#Year").val(),
+            FEEDQUALITY: $("#FEEDQUALITY").val(),
+            FEEDWEIGHT: $("#FEEDWEIGHT").val(),
+            FEEDPRICE: $("#FEEDPRICE").val()
+        }
+        $.ajax({
+
+            type: "post",
+            url: '@Url.Action("FEED", "FEED")',
+            data: JSON.stringify(input),
+            dataType: "json",
+            async: false,
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                debugger
+                if (data.status == "01") {
+                    //alert(data.Message);
+
+                    window.location.href = '@Url.Action("FEED", "FEED")';
+                }
+                else {
+                    alert(data.Message);
+                }
+            },
+            error: function (ex)
+            {
+            },
+        })
+    }
+
+
+        </script>
+        
+   
